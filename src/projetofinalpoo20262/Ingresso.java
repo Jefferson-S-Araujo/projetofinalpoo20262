@@ -41,7 +41,7 @@ public abstract class Ingresso {
 	public void setValorBase(double valorBase) {
 		try {
 			if (!Double.isFinite(valorBase) || valorBase <= 0) {
-				throw new IllegalArgumentException("O valor base dever maior que zero!");
+				throw new IllegalArgumentException("O valor dever maior que zero!");
 			}
 
 			this.valorBase = valorBase;
